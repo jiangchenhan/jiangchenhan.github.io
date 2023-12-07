@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,159 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a second-year Ph.D. student at the Department of Computer Science and Engineering, the Hong Kong University of Science and Technology (HKUST), supervised by <a href="https://sites.google.com/view/dyyeung/home">Prof. Dit-Yan Yeung</a>.
+Before that, I obtained a Master's degree at <a href="https://www.sysu-hcp.net/">Human-Cyber-Physical Intelligence Integration Lab</a> of Sun Yat-san University in 2019, supervised by <a href="http://www.linliang.net/">Prof. Liang Lin</a> and <a href="https://lemondan.github.io/">Prof. Xiaodan Liang</a>.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My current research interest is lifting open-world capability in 3D vision, including scene understanding and generation. I did some works on 2D/3D detection and self/semi/weak-supervised learning.
+<p style="color:red">I am looking for summer Intern! Please feel free to reach out :)</p>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## News
+- **[02/2023]:** One paper, is accepted to CVPR 2023.
+- **[01/2023]:** One paper, is accepted to ICLR 2023.
+- **[09/2022]:** I started my Ph.D. journey at HKUST.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Publications
+(* indicates equal contribution)
 
-**Markdown generator**
+<dl>
+<dt><strong>Open-world 3D Representation and Generation</strong><br></dt>
+<dt><img src="../images/jsd.png" alt="JSD" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt>JointDreamer: Ensuring Geometry Consistency and Text Congruence in Text-to-3D Generation via Joint Score Distillation</dt>
+<dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Tianyang Hu, Songcen Xu, Wei Zhang, Dit-Yan Yeung, Hang Xu</dd>
+<dd>arXiv Preprint, 2023</dd>
+<dd><a href="">[Paper]</a>&nbsp;<a href="">[Code]</a>&nbsp;<a href="https://jointdreamer.github.io/">[Project]</a></dd>
+<br>
+<dt><img src="../images/clip2.png" alt="JSD" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt>CLIP<sup>2</sup>: Contrastive Language-Image-Point Pretraining from Real-World Point Cloud Data</dt>
+<dd>Yihan Zeng*, <strong>Chenhan Jiang*</strong>, Jiageng Mao, Jianhua Han, Chaoqiang Ye, Qingqiu Huang, Dit-Yan Yeung, Zhen Yang, Xiaodan Liang, Hang Xu</dd>
+<dd>CVPR, 2023</dd>
+<dd><a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Zeng_CLIP2_Contrastive_Language-Image-Point_Pretraining_From_Real-World_Point_Cloud_Data_CVPR_2023_paper.pdf">[Paper]</a></dd>
+<br>
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+<dt><strong>2D/3D Detection</strong></dt>
+<dt><img src="../images/co3.png" alt="CO3" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt>CO<sup>3</sup>: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving</dt>
+<dd>Runjian Chen, Yao Mu, Runsen Xu, Wenqi Shao, <strong>Chenhan Jiang</strong>, Hang Xu, Zhenguo Li, Pin Luo</dd>
+<dd>ICLR, 2023</dd>
+<dd><a href="https://arxiv.org/pdf/2206.04028">[Paper]</a>&nbsp;<a href="https://github.com/Runjian-Chen/CO3">[Code]</a></dd>
+<br>
+<dt><img src="../images/dupr.png" alt="DUPR" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt>Deeply Unsupervised Patch Re-Identification for Pre-training Object Detectors</dt>
+<dd>Jian Ding*, Enze Xie*, Hang Xu, <strong>Chenhan Jiang</strong>, Zhenguo Li, Ping Luo, Gui-Song Xia</dd>
+<dd>TPAMI, 2022</dd>
+<dd><a href="https://arxiv.org/abs/2103.04814">[Paper]</a>&nbsp;<a href="https://github.com/dingjiansw101/DUPR">[Code]</a></dd>
+<br>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<dt><img src="../images/once.png" alt="DUPR" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt>One Million Scenes for Autonomous Driving: ONCE Dataset</dt>
+<dd>Jiageng Mao*, Minzhe Niu*, <strong>Chenhan Jiang</strong>, Hanxue Liang, Jingheng Chen, Xiaodan Liang, Yamin Li, Chaoqiang Ye, Wei Zhang, Zhenguo Li, Jie Yu, Chunjing Xu, Hang Xu</dd>
+<dd>NeurIPS Dataset and Benchmark, 2022</dd>
+<dd><a href="https://arxiv.org/abs/2106.11037">[Paper]</a>&nbsp;<a href="https://github.com/PointsCoder/ONCE_Benchmark">[Code]</a></dd>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+<dt><img src="../images/gcc3d.png" alt="GCC3D" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt>Exploring Geometry-Aware Contrast and Clustering Harmonization for Self-supervised 3d Object Detection</dt>
+<dd>Hanxue Liang*, <strong>Chenhan Jiang*</strong>, Dapeng Feng, Xin Chen, Hang Xu, Xiaodan Liang, Wei Zhang, Zhenguo Li, Luc Van Gool</dd>
+<dd>ICCV, 2021</dd>
+<dd><a href="http://openaccess.thecvf.com/content/ICCV2021/papers/Liang_Exploring_Geometry-Aware_Contrast_and_Clustering_Harmonization_for_Self-Supervised_3D_Object_ICCV_2021_paper.pdf">[Paper]</a></dd>
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<dt><img src="../images/spnas.png" alt="SPNAS" align="left" style="width:210px; margin-right:10px;"></dt>
+    <dt>SP-NAS: Serial-to-Parallel Backbone Search for Object Detection</dt>
+    <dd><strong>Chenhan Jiang</strong>, Hang Xu, Xiaodan Liang, Wei Zhang, Zhenguo Li</dd>
+    <dd>CVPR, 2020</dd>
+    <dd><a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Jiang_SP-NAS_Serial-to-Parallel_Backbone_Search_for_Object_Detection_CVPR_2020_paper.pdf">[Paper]</a>&nbsp;<a href="https://github.com/huawei-noah/vega/blob/master/docs/en/algorithms/sp_nas.md">[Code]</a></dd>
+
+<dt><img src="../images/sagr.png" alt="SAGR" align="left" style="width:210px; margin-right:10px;"></dt>
+    <dt>Spatial-Aware Graph Relation Network for Large-scale Object Detection</dt>
+    <dd>Hang Xu*, <strong>Chenhan Jiang*</strong>, Xiaodan Liang, Zhenguo Li</dd>
+    <dd>CVPR, 2019</dd>
+    <dd><a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Spatial-Aware_Graph_Relation_Network_for_Large-Scale_Object_Detection_CVPR_2019_paper.pdf">[Paper]</a>&nbsp;<a href="https://github.com/chanyn/HKRM">[Code]</a></dd>
+
+<dt><img src="../images/rrcnn.png" alt="RRCNN" align="left" style="width:210px; margin-right:10px;"></dt>
+    <dt>Reasoning-RCNN: Unifying Adaptive Global Reasoning into Large-scale Object Detection</dt>
+    <dd>Hang Xu*, <strong>Chenhan Jiang*</strong>, Xiaodan Liang, Liang Lin, Zhenguo Li</dd>
+    <dd>CVPR, 2019</dd>
+    <dd><a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Reasoning-RCNN_Unifying_Adaptive_Global_Reasoning_Into_Large-Scale_Object_Detection_CVPR_2019_paper.pdf">[Paper]</a>&nbsp;<a href="https://github.com/chanyn/HKRM">[Code]</a></dd>
+<br>
+<dt><img src="../images/hkrm.png" alt="HKRM" align="left" style="width:210px; margin-right:10px;"></dt>
+    <dt>Hybrid Knowledge Routed Modules for Large-scale Object Detection</dt>
+    <dd><strong>Chenhan Jiang*</strong>, Hang Xu*, Xiaodan Liang, Liang Lin</dd>
+    <dd>NeurIPS, 2018</dd>
+    <dd><a href="https://proceedings.neurips.cc/paper/2018/file/72da7fd6d1302c0a159f6436d01e9eb0-Paper.pdf">[Paper]</a>&nbsp;<a href="https://github.com/chanyn/HKRM">[Code]</a></dd>
+
+<br>
+<dt><strong>Others</strong><br></dt>
+<dt><img src="../images/cqb.png" alt="CQB" align="left" style="width:210px; margin-right:10px;"></dt>
+    <dt>How to Save your Annotation Cost for Panoptic Segmentation?</dt>
+    <dd>Xuefeng Du, <strong>Chenhan Jiang</strong>, Hang Xu, Gengwei Zhang, Zhenguo Li</dd>
+    <dd>AAAI, 2021</dd>
+    <dd><a href="https://ojs.aaai.org/index.php/AAAI/article/view/16216">[Paper]</a></dd>
+<dt><img src="../images/elixirnet.png" alt="ELIXIR" align="left" style="width:210px; margin-right:10px;"></dt>
+    <dt>Elixirnet: Relation-Aware Network Architecture Adaptation for Medical Lesion Detection</dt>
+    <dd><strong>Chenhan Jiang*</strong>, Shaoju Wang*, Hang Xu, Xiaodan Liang, Nong Xiao</dd>
+    <dd>AAAI, 2020</dd>
+    <dd><a href="https://arxiv.org/abs/2003.08770">[Paper]</a></dd>
+
+<dt><img src="../images/pose.png" alt="POSE" align="left" style="width:210px; margin-right:10px;"></dt>
+    <dt>3D Human Pose Machines with Self-Supervised Learning</dt>
+    <dd>Keze Wang, Liang Lin, <strong>Chenhan Jiang</strong>, Chen Qian, Pengxu Wei</dd>
+    <dd>TPAMI, 2019</dd>
+    <dd><a href="https://arxiv.org/abs/1901.03798">[Paper]</a>&nbsp;<a href="https://github.com/chanyn/3Dpose_ssl">[Code]</a></dd>
+<br>
+<dt><img src="../images/landmark.png" alt="LANDMARK" align="left" style="width:210px; margin-right:10px;"></dt>
+    <dt>Layout-Graph Reasoning for Fashion Landmark Detection</dt>
+    <dd>Weijiang Yu, Xiaodan Liang, Ke Gong, <strong>Chenhan Jiang</strong>, Nong Xiao, Liang Lin</dd>
+    <dd>CVPR, 2019</dd>
+    <dd><a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Yu_Layout-Graph_Reasoning_for_Fashion_Landmark_Detection_CVPR_2019_paper.pdf">[Paper]</a></dd>
+
+</dl>
+
+
+
+## Experiences
+<div style="display:flex; align-items:center;">
+  <img src="../images/noah.png" alt="Image" style="width:100px; margin-right:20px;">
+  <div>
+    <p>Researcher, Huawei Noah's Ark Lab</p>
+    <p>Dec. 2019 - Jun. 2022</p>
+  </div>
+</div>
+<br>
+<div style="display:flex; align-items:center;">
+  <img src="../images/sensetime.png" alt="Image" style="width:100px; margin-right:20px;">
+  <div>
+    <p>Research Intern, SenseTime</p>
+    <p>Jan. 2018 - Dec. 2018</p>
+  </div>
+</div>
+
+
+## Selected Awards
+<div style="display:flex; justify-content:space-between;">
+  <p>HKUST RedBird PhD Award</p>
+  <p style="text-align:right;">2022</p>
+</div>
+
+<div style="display:flex; justify-content:space-between;">
+  <p>Huawei PhD Fellowship Award</p>
+  <p style="text-align:right;">2022</p>
+</div>
+
+<div style="display:flex; justify-content:space-between;">
+  <p>Rank 1 in <a href="https://waymo.com/open/challenges/2020/2d-detection/">Waymo 2D Detection Challenge</a></p>
+  <p style="text-align:right;">2021</p>
+</div>
+
+<div style="display:flex; justify-content:space-between;">
+  <p>Huawei Director Award-Outstanding New Employees</p>
+  <p style="text-align:right;">2020</p>
+</div>
+
+<div style="display:flex; justify-content:space-between;">
+  <p>Rank 1 in 
+    <a href="https://tianchi.aliyun.com/competition/entrance/231677/rankingList">Tianchi Zero-shot Image Classification Competition</a></p>
+    <p style="color:red">(bonus 500,000 RMB)</p>
+  <p style="text-align:right;">2018</p>
+</div>
+
