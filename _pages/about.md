@@ -31,7 +31,7 @@ My current research interest are 3D generation and perception, including text-to
 <dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Tianyang Hu, Songcen Xu, Wei Zhang, Dit-Yan Yeung, Hang Xu</dd>
 <dd>arXiv Preprint, 2023</dd>
 <dd><a href="https://jointdreamer.github.io/">[Project]</a></dd>
-
+<br>
 <dt><img src="../images/fast.png" alt="FAST" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>Fast-T3D: Fast Text-to-3D Object Generation via  Scarce 3D Prior and Multi-Gradient Optimization</dt>
 <dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Jianhua Han, Songcen Xu, Wei Zhang, Dit-Yan Yeung, Hang Xu</dd>
@@ -45,7 +45,7 @@ My current research interest are 3D generation and perception, including text-to
 <dd>Runjian Chen, Yao Mu, Runsen Xu, Wenqi Shao, <strong>Chenhan Jiang</strong>, Hang Xu, Zhenguo Li, Pin Luo</dd>
 <dd>ICLR, 2023</dd>
 <dd><a href="https://arxiv.org/pdf/2206.04028">[Paper]</a>&nbsp;<a href="https://github.com/Runjian-Chen/CO3">[Code]</a></dd>
-
+<br>
 <dt><img src="../images/clip2.png" alt="JSD" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>CLIP<sup>2</sup>: Contrastive Language-Image-Point Pretraining from Real-World Point Cloud Data</dt>
 <dd>Yihan Zeng*, <strong>Chenhan Jiang*</strong>, Jiageng Mao, Jianhua Han, Chaoqiang Ye, Qingqiu Huang, Dit-Yan Yeung, Zhen Yang, Xiaodan Liang, Hang Xu</dd>
