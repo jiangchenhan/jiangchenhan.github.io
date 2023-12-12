@@ -11,7 +11,7 @@ redirect_from:
 I am a second-year Ph.D. student at the Department of Computer Science and Engineering, the Hong Kong University of Science and Technology (HKUST), supervised by <a href="https://sites.google.com/view/dyyeung/home">Prof. Dit-Yan Yeung</a>.
 Before that, I obtained a Master's degree at <a href="https://www.sysu-hcp.net/">Human-Cyber-Physical Intelligence Integration Lab</a> of Sun Yat-san University in 2019, supervised by <a href="http://www.linliang.net/">Prof. Liang Lin</a> and <a href="https://lemondan.github.io/">Prof. Xiaodan Liang</a>.
 
-My current research interest is lifting open-world capability in 3D vision, including scene understanding and generation. I did some works on 2D/3D detection and self/semi/weak-supervised learning.
+My current research interest are 3D generation and perception, including text-to-3D generation, scene understanding. I did some works on 2D/3D detection and representation learning.
 <p style="color:red">I am looking for summer Intern! Please feel free to reach out :)</p>
 
 ## News
@@ -25,12 +25,25 @@ My current research interest is lifting open-world capability in 3D vision, incl
 (* indicates equal contribution)
 
 <dl>
-<dt><strong>Open-world 3D Representation and Generation</strong><br></dt>
+<dt><strong>3D Generation </strong><br></dt>
 <dt><img src="../images/jsd.png" alt="JSD" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>JointDreamer: Ensuring Geometry Consistency and Text Congruence in Text-to-3D Generation via Joint Score Distillation</dt>
 <dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Tianyang Hu, Songcen Xu, Wei Zhang, Dit-Yan Yeung, Hang Xu</dd>
 <dd>arXiv Preprint, 2023</dd>
-<dd><a href="">[Paper]</a>&nbsp;<a href="">[Code]</a>&nbsp;<a href="https://jointdreamer.github.io/">[Project]</a></dd>
+<dd>&nbsp<a href="https://jointdreamer.github.io/">[Project]</a></dd>
+<br>
+<dt><img src="../images/fast.png" alt="FAST" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt>Fast-T3D: Fast Text-to-3D Object Generation via  Scarce 3D Prior and Multi-Gradient Optimization</dt>
+<dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Jianhua Han, Songcen Xu, Wei Zhang, Dit-Yan Yeung, Hang Xu</dd>
+<dd>arXiv Preprint, 2023</dd>
+
+<dl>
+<dt><strong>3D Representation Learning </strong><br></dt>
+<dt><img src="../images/co3.png" alt="CO3" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt>CO<sup>3</sup>: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving</dt>
+<dd>Runjian Chen, Yao Mu, Runsen Xu, Wenqi Shao, <strong>Chenhan Jiang</strong>, Hang Xu, Zhenguo Li, Pin Luo</dd>
+<dd>ICLR, 2023</dd>
+<dd><a href="https://arxiv.org/pdf/2206.04028">[Paper]</a>&nbsp;<a href="https://github.com/Runjian-Chen/CO3">[Code]</a></dd>
 <br>
 <dt><img src="../images/clip2.png" alt="JSD" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>CLIP<sup>2</sup>: Contrastive Language-Image-Point Pretraining from Real-World Point Cloud Data</dt>
@@ -38,21 +51,6 @@ My current research interest is lifting open-world capability in 3D vision, incl
 <dd>CVPR, 2023</dd>
 <dd><a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Zeng_CLIP2_Contrastive_Language-Image-Point_Pretraining_From_Real-World_Point_Cloud_Data_CVPR_2023_paper.pdf">[Paper]</a></dd>
 <br>
-
-<dt><strong>2D/3D Detection</strong></dt>
-<dt><img src="../images/co3.png" alt="CO3" align="left" style="width:210px; margin-right:10px;"></dt>
-<dt>CO<sup>3</sup>: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving</dt>
-<dd>Runjian Chen, Yao Mu, Runsen Xu, Wenqi Shao, <strong>Chenhan Jiang</strong>, Hang Xu, Zhenguo Li, Pin Luo</dd>
-<dd>ICLR, 2023</dd>
-<dd><a href="https://arxiv.org/pdf/2206.04028">[Paper]</a>&nbsp;<a href="https://github.com/Runjian-Chen/CO3">[Code]</a></dd>
-<br>
-<dt><img src="../images/dupr.png" alt="DUPR" align="left" style="width:210px; margin-right:10px;"></dt>
-<dt>Deeply Unsupervised Patch Re-Identification for Pre-training Object Detectors</dt>
-<dd>Jian Ding*, Enze Xie*, Hang Xu, <strong>Chenhan Jiang</strong>, Zhenguo Li, Ping Luo, Gui-Song Xia</dd>
-<dd>TPAMI, 2022</dd>
-<dd><a href="https://arxiv.org/abs/2103.04814">[Paper]</a>&nbsp;<a href="https://github.com/dingjiansw101/DUPR">[Code]</a></dd>
-<br>
-
 <dt><img src="../images/once.png" alt="DUPR" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>One Million Scenes for Autonomous Driving: ONCE Dataset</dt>
 <dd>Jiageng Mao*, Minzhe Niu*, <strong>Chenhan Jiang</strong>, Hanxue Liang, Jingheng Chen, Xiaodan Liang, Yamin Li, Chaoqiang Ye, Wei Zhang, Zhenguo Li, Jie Yu, Chunjing Xu, Hang Xu</dd>
@@ -64,6 +62,17 @@ My current research interest is lifting open-world capability in 3D vision, incl
 <dd>Hanxue Liang*, <strong>Chenhan Jiang*</strong>, Dapeng Feng, Xin Chen, Hang Xu, Xiaodan Liang, Wei Zhang, Zhenguo Li, Luc Van Gool</dd>
 <dd>ICCV, 2021</dd>
 <dd><a href="http://openaccess.thecvf.com/content/ICCV2021/papers/Liang_Exploring_Geometry-Aware_Contrast_and_Clustering_Harmonization_for_Self-Supervised_3D_Object_ICCV_2021_paper.pdf">[Paper]</a></dd>
+
+
+
+<dl>
+<dt><strong>2D Object Detection</strong><br></dt>
+<dt><img src="../images/dupr.png" alt="DUPR" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt>Deeply Unsupervised Patch Re-Identification for Pre-training Object Detectors</dt>
+<dd>Jian Ding*, Enze Xie*, Hang Xu, <strong>Chenhan Jiang</strong>, Zhenguo Li, Ping Luo, Gui-Song Xia</dd>
+<dd>TPAMI, 2022</dd>
+<dd><a href="https://arxiv.org/abs/2103.04814">[Paper]</a>&nbsp;<a href="https://github.com/dingjiansw101/DUPR">[Code]</a></dd>
+<br>
 
 <dt><img src="../images/spnas.png" alt="SPNAS" align="left" style="width:210px; margin-right:10px;"></dt>
     <dt>SP-NAS: Serial-to-Parallel Backbone Search for Object Detection</dt>
