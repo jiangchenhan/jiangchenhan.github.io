@@ -15,6 +15,7 @@ My current research interest are 3D generation and perception, including text-to
 <p style="color:red">I am looking for summer Intern! Please feel free to reach out :)</p>
 
 ## News
+- **[07/2024]:** One paper, is accepted to ECCV 2024.
 - **[02/2023]:** One paper, is accepted to CVPR 2023.
 - **[01/2023]:** One paper, is accepted to ICLR 2023.
 - **[09/2022]:** I started my Ph.D. journey at HKUST.
@@ -29,8 +30,8 @@ My current research interest are 3D generation and perception, including text-to
 <dt><img src="../images/jsd.png" alt="JSD" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>JointDreamer: Ensuring Geometry Consistency and Text Congruence in Text-to-3D Generation via Joint Score Distillation</dt>
 <dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Tianyang Hu, Songcen Xu, Wei Zhang, Dit-Yan Yeung, Hang Xu</dd>
-<dd>arXiv Preprint, 2023</dd>
-<dd><a href="https://jointdreamer.github.io/">[Project]</a></dd>
+<dd>ECCV, 2024</dd>
+<dd><a href="https://arxiv.org/abs/2407.12291">[Paper]</a> <a href="https://jointdreamer.github.io/">[Project]</a> <a href="https://github.com/chanyn/JointDreamer/">[Code]</a></dd>
 <br>
 <dt><img src="../images/fast.png" alt="FAST" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>Fast-T3D: Fast Text-to-3D Object Generation via  Scarce 3D Prior and Multi-Gradient Optimization</dt>
