@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Ph.D. student at the Department of Computer Science and Engineering, the Hong Kong University of Science and Technology (HKUST), supervised by <a href="https://sites.google.com/view/dyyeung/home">Prof. Dit-Yan Yeung</a>.
+I am a third-year Ph.D. student at the Department of Computer Science and Engineering, the Hong Kong University of Science and Technology (HKUST), supervised by <a href="https://sites.google.com/view/dyyeung/home">Prof. Dit-Yan Yeung</a>.
 Before that, I obtained a Master's degree at <a href="https://www.sysu-hcp.net/">Human-Cyber-Physical Intelligence Integration Lab</a> of Sun Yat-san University in 2019, supervised by <a href="http://www.linliang.net/">Prof. Liang Lin</a> and <a href="https://lemondan.github.io/">Prof. Xiaodan Liang</a>.
 
 My current research interest are 3D generation and perception, including text-to-3D generation, scene understanding. I did some works on 2D/3D detection and representation learning.
@@ -32,6 +32,12 @@ My current research interest are 3D generation and perception, including text-to
 <dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Tianyang Hu, Songcen Xu, Wei Zhang, Dit-Yan Yeung, Hang Xu</dd>
 <dd>ECCV, 2024</dd>
 <dd><a href="https://arxiv.org/abs/2407.12291">[Paper]</a> <a href="https://jointdreamer.github.io/">[Project]</a> <a href="https://github.com/chanyn/JointDreamer/">[Code]</a></dd>
+<br>
+<dt><img src="../images/survey.png" alt="FAST" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt>A Survey On Text-to-3D Contents Generation In The Wild</dt>
+<dd>Chenhan Jiang</dd>
+<dd>arXiv Preprint, 2024</dd>
+<dd><a href="https://arxiv.org/pdf/2405.09431">[Paper]</a></dd>
 <br>
 <dt><img src="../images/fast.png" alt="FAST" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>Fast-T3D: Fast Text-to-3D Object Generation via  Scarce 3D Prior and Multi-Gradient Optimization</dt>
