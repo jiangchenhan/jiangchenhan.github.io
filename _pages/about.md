@@ -12,7 +12,8 @@ I am a third-year Ph.D. student at the Department of Computer Science and Engine
 Before that, I obtained a Master's degree at <a href="https://www.sysu-hcp.net/">Human-Cyber-Physical Intelligence Integration Lab</a> of Sun Yat-san University in 2019, supervised by <a href="http://www.linliang.net/">Prof. Liang Lin</a> and <a href="https://lemondan.github.io/">Prof. Xiaodan Liang</a>.
 
 My current research interest are 3D generation and perception, including text-to-3D generation, scene understanding. I did some works on 2D/3D detection and representation learning.
-<p style="color:red">I am looking for summer Intern! Please feel free to reach out :)</p>
+
+[//]: # (<p style="color:red">I am looking for postdoc ! Please feel free to reach out :&#41;</p>)
 
 ## News
 - **[07/2024]:** One paper, is accepted to ECCV 2024.
@@ -27,9 +28,15 @@ My current research interest are 3D generation and perception, including text-to
 
 <dl>
 <dt><strong>3D Generation </strong><br></dt>
+<dt><img src="../images/coherendream.png" alt="JSD" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt>CoherenDream: Boosting Holistic Text Coherence in 3D Generation via Multimodal Large Language Models Feedback</dt>
+<dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Hang Xu, Dit-Yan Yeung</dd>
+<dd>arXiv Preprint, 2025</dd>
+<dd><a href="https://arxiv.org/abs/2504.19860">[Paper]</a> </dd>
+<br>
 <dt><img src="../images/jsd.png" alt="JSD" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>JointDreamer: Ensuring Geometry Consistency and Text Congruence in Text-to-3D Generation via Joint Score Distillation</dt>
-<dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Tianyang Hu, Songcen Xu, Wei Zhang, Dit-Yan Yeung, Hang Xu</dd>
+<dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Tianyang Hu, Songcen Xu, Wei Zhang, Hang Xu, Dit-Yan Yeung</dd>
 <dd>ECCV, 2024</dd>
 <dd><a href="https://arxiv.org/abs/2407.12291">[Paper]</a> <a href="https://jointdreamer.github.io/">[Project]</a> <a href="https://github.com/chanyn/JointDreamer/">[Code]</a></dd>
 <br>
@@ -41,7 +48,7 @@ My current research interest are 3D generation and perception, including text-to
 <br>
 <dt><img src="../images/fast.png" alt="FAST" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>Fast-T3D: Fast Text-to-3D Object Generation via  Scarce 3D Prior and Multi-Gradient Optimization</dt>
-<dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Jianhua Han, Songcen Xu, Wei Zhang, Dit-Yan Yeung, Hang Xu</dd>
+<dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Jianhua Han, Hang Xu</dd>
 <dd>arXiv Preprint, 2023</dd>
 </dl>
 
