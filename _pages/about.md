@@ -16,6 +16,8 @@ My current research interest are 3D generation and perception, including text-to
 [//]: # (<p style="color:red">I am looking for postdoc ! Please feel free to reach out :&#41;</p>)
 
 ## News
+- **[11/2025]:** One paper, is accepted to AAAI 2026.
+- **[09/2025]:** One paper, is accepted to NeurIPS 2025.
 - **[07/2024]:** One paper, is accepted to ECCV 2024.
 - **[02/2023]:** One paper, is accepted to CVPR 2023.
 - **[01/2023]:** One paper, is accepted to ICLR 2023.
@@ -28,11 +30,17 @@ My current research interest are 3D generation and perception, including text-to
 
 <dl>
 <dt><strong>3D Generation </strong><br></dt>
-<dt><img src="../images/coherendream.png" alt="JSD" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt><img src="../images/coherendream.png" alt="COHEREN" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>CoherenDream: Boosting Holistic Text Coherence in 3D Generation via Multimodal Large Language Models Feedback</dt>
 <dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Hang Xu, Dit-Yan Yeung</dd>
-<dd>arXiv Preprint, 2025</dd>
-<dd><a href="https://arxiv.org/abs/2504.19860">[Paper]</a> </dd>
+<dd>AAAI, 2026</dd>
+<dd><a href="https://arxiv.org/abs/2504.19860">[Paper]</a> <a href="https://chanyn.github.io/coherendream/">[Project]</a></dd>
+<br>
+<dt><img src="../images/shapecraft.png" alt="SHAPE" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt>ShapeCraft: LLM Agents for Structured, Textured and Interactive 3D Modeling</dt>
+<dd>Shuyuan Zhang*, <strong>Chenhan Jiang*</strong>, Zuoou Li, Jiankang Deng</dd>
+<dd>NeurIPS, 2025</dd>
+<dd><a href="https://arxiv.org/abs/2510.17603">[Paper]</a> <a href="https://sanbingyouyong.github.io/shapecraft/">[Project]</a></dd>
 <br>
 <dt><img src="../images/jsd.png" alt="JSD" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>JointDreamer: Ensuring Geometry Consistency and Text Congruence in Text-to-3D Generation via Joint Score Distillation</dt>
@@ -40,7 +48,7 @@ My current research interest are 3D generation and perception, including text-to
 <dd>ECCV, 2024</dd>
 <dd><a href="https://arxiv.org/abs/2407.12291">[Paper]</a> <a href="https://jointdreamer.github.io/">[Project]</a> <a href="https://github.com/chanyn/JointDreamer/">[Code]</a></dd>
 <br>
-<dt><img src="../images/survey.png" alt="FAST" align="left" style="width:210px; margin-right:10px;"></dt>
+<dt><img src="../images/survey.png" alt="SURVEY" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>A Survey On Text-to-3D Contents Generation In The Wild</dt>
 <dd>Chenhan Jiang</dd>
 <dd>arXiv Preprint, 2024</dd>
@@ -145,9 +153,18 @@ My current research interest are 3D generation and perception, including text-to
 
 ## Experiences
 <div style="display:flex; align-items:center;">
+  <img src="../images/imperial.png" alt="Image" style="width:100px; margin-right:20px;">
+  <div>
+    <p>Visiting Student, Imperial College London</p>
+    <p>Host by <a href="https://jiankangdeng.github.io/">Prof. Jiankang Deng</a></p>
+    <p>Feb. 2025 - Nov. 2025</p>
+  </div>
+</div>
+<div style="display:flex; align-items:center;">
   <img src="../images/noah.png" alt="Image" style="width:100px; margin-right:20px;">
   <div>
     <p>Researcher, Huawei Noah's Ark Lab</p>
+    <p>Host by <a href="https://zhenguol.github.io/">Dr. Zhenguo Li</a></p>
     <p>Dec. 2019 - Jun. 2022</p>
   </div>
 </div>
