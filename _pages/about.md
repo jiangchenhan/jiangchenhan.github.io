@@ -13,7 +13,7 @@ Before that, I obtained a Master's degree at <a href="https://www.sysu-hcp.net/"
 
 My current research interest are 3D generation and perception, including text-to-3D generation, scene understanding. I did some works on 2D/3D detection and representation learning.
 
-[//]: # (<p style="color:red">I'm currently on job market of both academics and industry. Feel free to send me emails if we are a good fit!:&#41;</p>)
+(<p style="color:red">I'm currently on job market of both academics and industry. Feel free to send me emails if we are a good fit!:&#41;</p>)
 
 ## News
 - **[11/2025]:** One paper, is accepted to AAAI 2026.
