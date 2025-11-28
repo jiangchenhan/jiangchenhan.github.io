@@ -32,7 +32,7 @@ My current research interest are 3D generation and perception, including text-to
 <dt><strong>3D Generation </strong><br></dt>
 <dt><img src="../images/coherendream.png" alt="COHEREN" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>CoherenDream: Boosting Holistic Text Coherence in 3D Generation via Multimodal Large Language Models Feedback</dt>
-<dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Hang Xu, Dit-Yan Yeung</dd>
+<dd><strong>Chenhan Jiang</strong>, Yihan Zeng, Dit-Yan Yeung</dd>
 <dd>AAAI, 2026</dd>
 <dd><a href="https://arxiv.org/abs/2504.19860">[Paper]</a> <a href="https://chanyn.github.io/coherendream/">[Project]</a></dd>
 <br>
