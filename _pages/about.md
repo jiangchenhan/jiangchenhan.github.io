@@ -13,7 +13,7 @@ Before that, I obtained a Master's degree at <a href="https://www.sysu-hcp.net/"
 
 My current research interest are 3D generation and perception, including text-to-3D generation, scene understanding. I did some works on 2D/3D detection and representation learning.
 
-(<p style="color:red">I'm currently on job market of both academics and industry. Feel free to send me emails if we are a good fit!:&#41;</p>)
+<p style="color:red">(I'm currently on the job market for both academic and industrial positions, and open to collaborations. Feel free to reach out!)</p>
 
 ## News
 - **[11/2025]:** One paper, is accepted to AAAI 2026.
@@ -59,6 +59,7 @@ My current research interest are 3D generation and perception, including text-to
 <dd><strong>Chenhan Jiang*</strong>, Yihan Zeng*, Jianhua Han, Hang Xu</dd>
 <dd>arXiv Preprint, 2023</dd>
 </dl>
+
 
 <dl>
 <dt><strong>3D Representation Learning </strong><br></dt>
