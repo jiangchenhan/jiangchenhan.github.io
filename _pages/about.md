@@ -16,7 +16,7 @@ My current research interest are 3D generation and perception, including text-to
 <p style="color:red">(I'm currently on the job market for both academic and industrial positions, and open to collaborations. Feel free to reach out!)</p>
 
 ## News
-- **[11/2025]:** Two papers, are accepted to CVPR 2026.
+- **[02/2026]:** Two papers, are accepted to CVPR 2026.
 - **[11/2025]:** One paper, is accepted to AAAI 2026.
 - **[09/2025]:** One paper, is accepted to NeurIPS 2025.
 - **[07/2024]:** One paper, is accepted to ECCV 2024.
