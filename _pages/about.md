@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year Ph.D. student at the Department of Computer Science and Engineering, the Hong Kong University of Science and Technology (HKUST), supervised by <a href="https://sites.google.com/view/dyyeung/home">Prof. Dit-Yan Yeung</a>.
+I am a final-year Ph.D. student at the Department of Computer Science and Engineering, the Hong Kong University of Science and Technology (HKUST), supervised by <a href="https://sites.google.com/view/dyyeung/home">Prof. Dit-Yan Yeung</a>.
 Before that, I obtained a Master's degree at <a href="https://www.sysu-hcp.net/">Human-Cyber-Physical Intelligence Integration Lab</a> of Sun Yat-san University in 2019, supervised by <a href="http://www.linliang.net/">Prof. Liang Lin</a> and <a href="https://lemondan.github.io/">Prof. Xiaodan Liang</a>.
 
 My current research interest are 3D generation and perception, including text-to-3D generation, scene understanding. I did some works on 2D/3D detection and representation learning.
@@ -16,6 +16,7 @@ My current research interest are 3D generation and perception, including text-to
 <p style="color:red">(I'm currently on the job market for both academic and industrial positions, and open to collaborations. Feel free to reach out!)</p>
 
 ## News
+- **[11/2025]:** Two papers, are accepted to CVPR 2026.
 - **[11/2025]:** One paper, is accepted to AAAI 2026.
 - **[09/2025]:** One paper, is accepted to NeurIPS 2025.
 - **[07/2024]:** One paper, is accepted to ECCV 2024.
@@ -29,7 +30,7 @@ My current research interest are 3D generation and perception, including text-to
 (* indicates equal contribution)
 
 <dl>
-<dt><strong>3D Generation </strong><br></dt>
+<dt><strong>3D Generation and Reconstruction </strong><br></dt>
 <dt><img src="../images/coherendream.png" alt="COHEREN" align="left" style="width:210px; margin-right:10px;"></dt>
 <dt>CoherenDream: Boosting Holistic Text Coherence in 3D Generation via Multimodal Large Language Models Feedback</dt>
 <dd><strong>Chenhan Jiang</strong>, Yihan Zeng, Dit-Yan Yeung</dd>
